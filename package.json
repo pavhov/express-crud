@@ -1,0 +1,61 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "repository": "https://gitlab.betzzilla.com/pavel/test.git",
+  "engines": {
+    "node": "^8.10"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "postinstall": "cp -a .env.example .env && echo '.env is your local env variables or configs this file not comited added in git ignore'",
+    "grunt": "grunt"
+  },
+  "author": "Pavel",
+  "license": "ISC",
+  "dependencies": {
+    "@types/joi": "^13.0.7",
+    "body-parser": "^1.18.2",
+    "connect-redis": "^3.3.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "joi": "^13.1.2",
+    "mongoose": "^5.0.11",
+    "mongoose-paginate": "^5.0.3",
+    "redis": "^2.8.0",
+    "serve-favicon": "^2.4.5",
+    "spdy": "^3.4.7"
+  },
+  "optionalDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/connect-redis": "0.0.7",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/debug": "0.0.30",
+    "@types/dotenv": "^4.0.2",
+    "@types/express": "^4.11.1",
+    "@types/express-session": "^1.15.8",
+    "@types/mongoose": "^5.0.7",
+    "@types/mongoose-paginate": "^5.0.6",
+    "@types/node": "^9.6.0",
+    "@types/redis": "^2.8.6",
+    "@types/serve-favicon": "^2.2.30",
+    "@types/spdy": "^3.4.4",
+    "@types/websocket": "0.0.38"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.19",
+    "grunt-tslint": "^5.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2",
+    "typings": "^2.1.1",
+    "websocket": "^1.0.25"
+  }
+}

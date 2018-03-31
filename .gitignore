@@ -1,0 +1,15 @@
+.idea
+
+.env
+
+*-lock.json
+
+node_modules
+
+.tscache
+
+src/**/*.js
+src/**/*.js.*
+
+src/**/*.map
+src/**/*.map.*
